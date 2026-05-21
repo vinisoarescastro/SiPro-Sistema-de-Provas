@@ -1,11 +1,11 @@
-# 📋 SIPRO — Sistema de Provas com QR Code
+# SIPRO Sistema de Provas com QR Code
 ### Secretaria de Educação do Estado de Goiás (SEDUC-GO)
 
 > Plataforma para criação, aplicação e correção automatizada de provas, com suporte a QR Code e leitura de gabarito via câmera.
 
 ---
 
-## 📌 Sumário
+## Sumário
 
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#funcionalidades)
@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 Visão Geral
+## Visão Geral
 
 O **SIPRO** é um sistema web voltado para a gestão de avaliações educacionais da SEDUC-GO. Ele permite que professores e coordenadores criem provas, imprimam gabaritos com QR Code e realizem a correção automática das respostas via câmera, usando visão computacional.
 
@@ -34,7 +34,7 @@ O sistema é composto por:
 
 ---
 
-## ✅ Funcionalidades
+## Funcionalidades
 
 ### Implementadas
 - [x] Tela de login com autenticação (CPF ou e-mail + senha)
@@ -60,7 +60,7 @@ O sistema é composto por:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
 | Tecnologia | Uso |
@@ -93,7 +93,7 @@ O sistema é composto por:
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 sipro/
@@ -150,7 +150,7 @@ sipro/
 
 ---
 
-## 🏗️ Arquitetura do Sistema
+## Arquitetura do Sistema
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -180,7 +180,7 @@ sipro/
 
 ---
 
-## ⚙️ Instalação e Configuração
+## Instalação e Configuração
 
 ### Pré-requisitos
 
@@ -217,7 +217,7 @@ python mainWebcan-web.py
 # Servidor disponível em: http://127.0.0.1:5000
 ```
 
-> ⚠️ **Atenção:** Os dois servidores utilizam a mesma porta (5000). Para rodar ambos simultaneamente, configure portas diferentes (ex.: 5000 e 5001) e atualize as URLs nos arquivos JS correspondentes.
+> **Atenção:** Os dois servidores utilizam a mesma porta (5000). Para rodar ambos simultaneamente, configure portas diferentes (ex.: 5000 e 5001) e atualize as URLs nos arquivos JS correspondentes.
 
 ### 5. Abra o frontend
 
@@ -238,7 +238,7 @@ Senha:      12345678
 
 ---
 
-## 🔌 Endpoints da API
+## Endpoints da API
 
 ### Servidor de Geração de Provas (`gerarProvas/app.py`)
 
@@ -294,7 +294,7 @@ Recebe uma imagem do gabarito em Base64 e retorna o resultado da correção.
 
 ---
 
-## 🔄 Fluxo de Uso
+## Fluxo de Uso
 
 ### Criação e Aplicação de Prova
 
@@ -329,7 +329,7 @@ python qr_codes/gerar-qr-codes.py
 
 ---
 
-## 🐍 Módulos Python
+## Módulos Python
 
 ### `extrairGabarito.py`
 
@@ -362,7 +362,7 @@ Servidor Flask que:
 
 ---
 
-## 🎨 Frontend (HTML/CSS/JS)
+## Frontend (HTML/CSS/JS)
 
 ### Paleta de Cores (variáveis CSS globais)
 
@@ -395,7 +395,7 @@ O menu possui 4 categorias com cores distintas e submenus dropdown por hover:
 
 ---
 
-## 🔐 Observações de Segurança
+## Observações de Segurança
 
 > ⚠️ Este projeto está em fase de desenvolvimento. Os itens abaixo **precisam ser corrigidos antes de qualquer uso em produção:**
 
@@ -411,7 +411,7 @@ O menu possui 4 categorias com cores distintas e submenus dropdown por hover:
 
 ---
 
-## 🚀 Melhorias Futuras
+## Melhorias Futuras
 
 - [ ] Implementar autenticação segura com backend (JWT ou sessões)
 - [ ] Criar banco de dados (SQLite ou PostgreSQL) para armazenar provas, questões, alunos e resultados
@@ -426,7 +426,7 @@ O menu possui 4 categorias com cores distintas e submenus dropdown por hover:
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Vinícius Soares Castro**
 GEIT — Gerência em Infraestrutura e Tecnologia
@@ -434,7 +434,7 @@ Secretaria de Educação do Estado de Goiás (SEDUC-GO)
 
 ---
 
-## 📄 Licença
+## Licença
 
 Projeto de uso institucional — SEDUC-GO. Consulte o responsável pelo repositório para informações sobre licenciamento.
 
