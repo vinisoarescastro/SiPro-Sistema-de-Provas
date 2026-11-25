@@ -74,3 +74,15 @@ npm run dev
 | Avaliações | Consultar / Editar / Desempenho | Em desenvolvimento | — |
 | Correções | Manual / Ajustar / Revisão / Histórico | Em desenvolvimento | — |
 | Relatórios | Todos | Em desenvolvimento | — |
+
+---
+
+## Rodar os testes (backend)
+
+```bash
+cd python
+pip install -r requirements-dev.txt
+pytest
+```
+
+Os testes usam um `questoes.json` temporário e não alteram os dados reais.
